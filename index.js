@@ -55,6 +55,7 @@ var b=document.forms;
                 crimg.src=data[i].image
                 crimg.height="400"
                 crimg.width="650"
+                crimg.style.objectFit="contain"
                 crdiv2.appendChild(crimg)
                 crp=document.createElement("p")
                 crdiv2.appendChild(crp)
