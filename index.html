@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="https://s3-eu-central-1.amazonaws.com/centaur-wp/designweek/prod/content/uploads/2016/05/11170038/Instagram_Logo-1002x1003.jpg">
+    <style>
+        .img{
+            padding: 30px;
+        }
+        span{
+            padding-left: 30px;
+            color:black;
+            font-size:larger;
+        }
+        #more{
+          position: relative;
+          top: 150px;
+          left:30px;
+        }
+        .left{
+          width:300px;
+          border:1px solid grey;
+          height:718px;
+          position: sticky;
+          top:0px;
+         
+        }
+        .middle-top{
+          display: flex;
+          gap:10px;
+          padding-left: 100px;
+          padding-top: 50px;
+         overflow-y: hidden;
+          width: 700px;        
+        }
+        .middle-top::-webkit-scrollbar {
+          display: none;
+      }
+        .main{
+          display: flex;
+          flex-direction: row;
+        }
+        .middle-top img{
+          border-radius: 50%;
+          border:3px solid indianred;
+          width:120px;
+          height:70px;
+          padding: 2px;
+        }
+        .middle{
+          display:flex;
+          flex-direction: column;
+        }
+        .profile img{
+          border-radius: 50%;
+          height:50px;
+          width:50px;
+        }
+        .right{
+          padding-left: 70px;
+          padding-top: 60px;
+          position: sticky;
+          top:2px;
+        }
+        .profile{
+          position: relative;
+        }
+        .profile h6{
+          position:absolute;
+          top:0px;
+          left:70px;
+        }
+        .profile i{
+          position:absolute;
+          top:18px;
+          left:70px;
+          font-size: smaller;
+        }
+        .profile p{
+          position:absolute;
+          left:300px;
+          top:10px;
+          color:rgb(46, 116, 247);
+          font-size: smaller;
+        }
+        .down ul{
+          display:flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap:5px;
+        }
+        .down li{
+          font-size:x-small;
+          color: lightgray;
+          list-style-type:none;
+        }
+        .down li:hover{
+          text-decoration: underline;
+        }
+
+        .profilename{
+          position: absolute;
+          left:150px;
+          top:50px;
+        }
+        .postimg{
+          position: relative;
+        }
+        .nav-item:hover{
+          background-color: rgb(246, 239, 239);
+        }
+        .follow{
+          cursor:pointer;
+        }       
+    </style>
+</head>
+<body>
+<!-- modal -->
+<div class="modal fade" id="acc" style="background-color: rgba(0, 0, 0, 0.667);">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-body" style="background-color: whitesmoke;border-radius: 10px; display: flex
+      ;flex-direction: column;align-items: center;justify-content: center;align-content: center;">
+        <img src="https://www.pngitem.com/pimgs/m/132-1327874_instagram-font-logo-png-transparent-png.png" height="70" width="150">
+        <br>
+        <form>
+          <input type="text" name="username" id="username" placeholder="Phone number,username or email"  style="width:300px;">
+          <br>
+          <br>
+          <input type="password" placeholder="Password"  style="width:300px;">
+          <br>
+          <br>
+          <button type="button" class="btn btn-primary" style="width:300px;">Log in</button>
+        </form>
+        <br>
+        <br>
+        <p style="color:grey;text-align:center;">Forgot Password?</p>
+      </div>
+    </div>  
+  </div>
+<!-- end -->
+
+
+
+    <div class="main">
+        <div class="nav flex-column left">
+        <ul class="nav flex-column">
+            <li class="nav-item img">
+                <img src="https://www.pngitem.com/pimgs/m/132-1327874_instagram-font-logo-png-transparent-png.png" height="70" width="150">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"><i class="fa fa-home" style="font-size:24px; color:black"></i><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-search" style="font-size:24px;color:black"></i><span>Search</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./explore.html"><i class="fa fa-compass" style="font-size:24px;color:black"></i><span>Explore</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-film" style="font-size:24px;color:black"></i><span>Reels</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-commenting-o" style="font-size:24px;color:black"></i><span>Messages</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-heart-o" style="font-size:24px;color:black"></i><span>Notifications</span></a>
+            </li>
+            <li class="nav-item">
+                <div class="offcanvas offcanvas-start" id="demo1">
+                  <div class="offcanvas-header">
+                    <h1 class="offcanvas-title">Create a Post</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                   <form>
+                    <label for="image">Image source link:</label>
+                    <br>
+                    <input type="url" id="image">
+                    <br>
+                    <br>
+                    <label for="caption">Caption:</label>
+                    <br>
+                    <input type="textarea" name="caption" id="caption">
+                    <br>
+                    <br>
+                    <button class="btn btn-success post" type="submit">Submit</button>
+                   </form>
+                  </div>
+                </div>
+                <div class="container-fluid mt-3">
+                  <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo1">
+                    <i class="fa fa-plus-square-o" style="font-size:24px;color:black"></i><span>Create</span> 
+                  </button>
+                </div>
+            </li>
+          <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./images/phoebe.jpg" height="30" width="30"><span>Profile</span></a>
+            </li>
+          </ul>
+          <div class="offcanvas offcanvas-bottom" id="demo"  style="height:270px;width:300px;border-radius:20px">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <h5 class=" h6"><i class="fa fa-cog" style="font-size:20px"></i><span>Settings</span></h5>
+                <h5 class="h6"><i class="fa fa-line-chart" style="font-size:20px"></i><span>Your Activity</span></h5>
+                <h5 class="h6"><i class="fa fa-bookmark-o" style="font-size:20px"></i><span>Saved</span></h5>
+                <h5 class="h6"><i class="fa fa-exclamation-triangle" style="font-size:20px"></i><span>Report a problem</span></h5>
+              </div>
+              <div>
+                <h5 class="h6">Switch Accounts</h5>
+                <h5 class="h6">Logout</h5>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid mt-3">
+            <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+              <i class="fa fa-navicon"></i>
+            </button>
+          </div>
+       </div>
+       <div class="middle">
+       <div class="middle-top"> 
+        <img class="a" src="./images/chandler.jpg">
+        <img class="a" src="./images/Actor-Nani-Images-10.webp">
+        <img class="a" src="./images/joey.jpg">
+        <img class="a" src="./images/rachel.jpg">
+        <img class="a" src="./images/rajni.jpg">
+        <img class="a"src="./images/phoebe.jpg">
+        <img class="a" src="./images/chandler.jpg">
+        <img class="a" src="./images/chandler.jpg">
+        <img class="a" src="./images/chandler.jpg">
+        <img class="a"src="./images/chandler.jpg">
+        <img class="a" src="./images/chandler.jpg">
+       </div>
+       <div class="middle-down">
+       </div>
+       </div>
+       <div class="right">
+        <div class="profile">
+          <img src="./images/phoebe.jpg">
+          <h6>nandhu</h6>
+          <i>nandhu</i>
+          <p id="switch" style="cursor: pointer;">Switch</p>
+       </div>
+       <p>Suggested for you</p>
+       <div class="profile">
+        <img src="./images/joey.jpg">
+        <h6>shiva_cool</h6>
+        <i>Followedby nandhu</i>
+        <p class="follow">Follow</p>
+     </div>
+     <br>
+     <div class="profile">
+      <img src="./images/radhakrishna.webp">
+      <h6>rathod</h6>
+      <i>Suggested foryou</i>
+      <p  class="follow">Follow</p>
+   </div>
+   <br>
+   <div class="profile">
+    <img src="./images/sree.jpg">
+    <h6>v946</h6>
+    <i>Suggested foryou</i>
+    <p  class="follow">Follow</p>
+     </div>
+    <br> 
+     <div class="down"><ul>
+      <li>About</li>
+      <li>Help</li>
+      <li>Press</li>
+      <li>API</li>
+      <li>Jobs</li>
+      <li>Privacy</li>
+      <li>Terms</li>
+      <li>Location</li>
+      <li>Meta Verified</li>
+     </ul></div>
+     <p style="color:lightgray">2024 INSTAGRAM FROM META</p>
+    </div>
+    <script src="./index.js">        
+
+     </script>
+</body>
+</html>

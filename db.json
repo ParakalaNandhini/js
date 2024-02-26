@@ -1,0 +1,109 @@
+{
+  "posts": [
+    {
+      "image": "https://th.bing.com/th/id/OIP.ntc9ofQMYism3ltpF2R1zwHaEL?rs=1&pid=ImgDetMain",
+      "caption": "Gabbar!!!!🔥",
+      "id": 2
+    },
+    {
+      "image": "https://purepng.com/public/uploads/large/purepng.com-tom-and-jerry-happytom-and-jerrytomjerryanimated-seriesin-1940characters-1701528659229lrdcn.png",
+      "caption": "Life is peaceful when we used to watch tom and jerry.",
+      "id": 3
+    },
+    {
+      "image": "https://th.bing.com/th/id/R.0b86629875c35c570ddaf8b5a3ffd52d?rik=58rsq3%2buRxavCQ&riu=http%3a%2f%2feco18.com%2fwp-content%2fuploads%2f2016%2f06%2fAdobeStock_98287360.jpeg&ehk=aIH4jGJWn0Ro8TAg2Q5rnOC1ACwuyjFHejCvl9K3un4%3d&risl=1&pid=ImgRaw&r=0",
+      "caption": "Happy valentines-day my love❤️",
+      "id": 4
+    },
+    {
+      "image": "https://wallup.net/wp-content/uploads/2016/01/111509-landscape-nature.jpg",
+      "caption": "Life is beautiful while enjoying nature",
+      "id": 5
+    },
+    {
+      "image": "https://www.hdwallpaper.nu/wp-content/uploads/2015/09/7efae7f6dce13596b70641cc2b274431.jpg",
+      "caption": "The place where sky and water meet.",
+      "id": 6
+    },
+    {
+      "image": "https://th.bing.com/th/id/OIP._pnlFG_f5Zl6FO1D-eVdLAAAAA?rs=1&pid=ImgDetMain",
+      "caption": "Dear Jerry!Miss you💕",
+      "id": 7
+    },
+    {
+      "image": "https://wallpaperaccess.com/full/1907170.jpg",
+      "caption": "Get Rajnified🔥🔥🔥",
+      "id": 8
+    },
+    {
+      "image": "https://images.pexels.com/photos/269583/pexels-photo-269583.jpeg?cs=srgb&dl=art-beach-beautiful-269583.jpg&fm=jpg",
+      "caption": "Sunsets are love letters written by the sun to the earth.❤️",
+      "id": 9
+    },
+    {
+      "image": "https://s-media-cache-ak0.pinimg.com/736x/ea/29/eb/ea29eba1f73dd77b9d9afe3d4163aa04.jpg",
+      "caption": "I love you 3000❤️",
+      "id": 10
+    },
+    {
+      "image": "https://th.bing.com/th/id/OIP.1KR4QWCFPRTyB-FnMAGOYgHaNK?rs=1&pid=ImgDetMain",
+      "caption": "Black Panther❤️",
+      "id": 11
+    },
+    {
+      "image": "https://th.bing.com/th/id/OIP.cDZOSY4Dm52yCpKqdCO3AgHaEL?rs=1&pid=ImgDetMain",
+      "caption": "Feather weight Champion",
+      "id": 13
+    },
+    {
+      "image": "https://popslider.com/wp-content/uploads/2020/10/untitled-3-1024x768.jpg",
+      "caption": "GOAT🔥",
+      "id": 14
+    },
+    {
+      "image": "https://2.bp.blogspot.com/-9naRWCutvmY/WLDhe5Oj2UI/AAAAAAAADjc/hGGkWAFSqOENjMEbOoSPsv2bXnmgR3VjQCLcB/s1600/Nani-Biography-Wiki-Biodata.jpg",
+      "caption": "Natural!!❤️",
+      "id": 15
+    },
+    {
+      "image": "https://assets.audiomack.com/armondrago/e3b694c8d342f8247ae1845a5da3c19ab78818ce4a2e933ca1fb77095963a42a.jpeg?width=560&height=560&max=true",
+      "caption": "\"Life is the flower for which love is the honey\"",
+      "id": 16
+    },
+    {
+      "image": "https://i1.wp.com/short-biography.com/wp-content/uploads/rohit-sharma/Rohit-Sharma.jpg?w=2000&ssl=1",
+      "caption": "HITMAN!!!🔥🔥",
+      "id": 17
+    },
+    {
+      "image": "https://hbday.art/wp-content/uploads/2023/11/happy-birthday-cake-candles-gif-27117.gif",
+      "caption": "❤️\"Every day is a new day but something is special today\"❤️",
+      "id": 18
+    },
+    {
+      "image": "https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg?cs=srgb&dl=clouds-cloudy-countryside-236047.jpg&fm=jpg",
+      "caption": "❤️",
+      "id": 19
+    },
+    {
+      "image": "https://1.bp.blogspot.com/-jJqWfyhEg-E/WsDYGV2U_rI/AAAAAAAAbw4/9DEC9-MVTLgLl7IohQu7JKZzeMICXmzLgCLcBGAs/s1600/Keerthi-Suresh-Pictures-Download.jpg",
+      "caption": "Keerthy forever❤️❤️",
+      "id": 20
+    },
+    {
+      "image": "https://th.bing.com/th/id/OIP.5QUc7YmvnceO-uF9WV66mwHaKm?rs=1&pid=ImgDetMain",
+      "caption": "tiger",
+      "id": 21
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
