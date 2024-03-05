@@ -4,7 +4,7 @@
 }
 // Img tag
 var geti = document.getElementsByClassName("img")[0];
-fetch("http://localhost:3000/posts", {
+fetch("https://project-data-5.onrender.com/posts", {
     method: "get",
     headers: {
         'Content-Type': 'application/json'

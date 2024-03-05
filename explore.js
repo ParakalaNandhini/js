@@ -6,7 +6,7 @@ function shuffleArray(arr) {
     return arr;
 }
       
-        fetch("http://localhost:3000/posts",
+        fetch("https://project-data-5.onrender.com/posts",
         {
             method:"get",
             headers:{

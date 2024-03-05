@@ -6,7 +6,7 @@ var b=document.forms;
           image:event.target[0].value,
           caption:event.target[1].value
         }
-        fetch(" http://localhost:3000/posts", {
+        fetch("https://project-data-5.onrender.com/posts", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -19,7 +19,7 @@ var b=document.forms;
          posts.innerHTML="Done"
         })
       })
-      fetch("http://localhost:3000/posts",
+      fetch("https://project-data-5.onrender.com/posts",
             {
                 method:"get",
                 headers:{
